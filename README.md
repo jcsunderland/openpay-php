@@ -835,7 +835,7 @@ Add a subscription:
 $openpay = Openpay::getInstance('moiep6umtcnanql3jrxp', 'sk_3433941e467c1055b178ce26348b0fac');
 
 $subscriptionData = array(
-	"trial_end_date":"2014-01-01", 
+	'trial_end_date' => '2014-01-01', 
 	'plan_id' => 'pduar9iitv4enjftuwyl',
 	'card_id' => 'konvkvcd5ih8ta65umie');
 
